@@ -19,6 +19,8 @@ The category hallway clip uses `精选素材/回声 new.mp4`. The hallway method
 
 There are no external libraries, font requests, analytics, or build dependencies. Full videos load on demand. The six silent, low-resolution cover previews total about 0.53 MB and pause off-screen; reduced-motion preferences disable automatic motion. Foreground playback is coordinated so clips do not overlap with the comparison's selected audio source.
 
+Content modules gently rise and fade in on their first scroll into view. `js/reveal.js` uses native IntersectionObserver and CSS transitions; reduced-motion preferences and keyboard focus show content immediately.
+
 Edit page structure in `index.html`, color and case styling in `css/showcase.css`, and case descriptions/media paths in `js/showcase-data.js`. `js/data.js` contains comparison screenplays and media; `js/flow-frames.js` maps the pipeline's output frames. Keep `please_click_me.html` identical to `index.html` after changes. Recompute the waveform data when replacing either immersive-audio clip.
 
 The repository root is served by GitHub Pages from the `main` branch. `.nojekyll` keeps the site as plain static files. This folder also works on any other static host.
