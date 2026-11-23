@@ -13,8 +13,7 @@
     '#evidence-host',
     '.live-prompt',
     '.input-board',
-    '#pipeline-section',
-    '.implementation'
+    '#pipeline-section'
   ].join(','))];
 
   const observer = new IntersectionObserver(entries => {
