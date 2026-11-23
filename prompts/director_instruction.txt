@@ -1,0 +1,1 @@
+Analyze the first frame of the video together with its full structured text prompt. Pay attention to the people, scene, dialogue, actions, expressions, interactions, environment, and audio description.
