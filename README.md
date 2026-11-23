@@ -8,16 +8,16 @@ Open **please_click_me.html** or **index.html**. Both entries are identical and 
 
 For local HTTP playback, run `python3 serve.py` and open http://127.0.0.1:8127/.
 
-The cover uses the reference demo's moving film wall and gradient title, with the full author list and affiliations visible immediately. The page contains a showreel, four category tabs with a single expanded case card, and the original three-scene method comparison and animated inference pipeline. Immersive audio is expanded by default. Selecting another category closes the previous card and pauses its video. The only comparison baseline is LTX-2.3.
+The cover uses the reference demo's moving film wall and gradient title, with the full author list and affiliations visible immediately. The top-right tile shows the discussion circle from Group activity; the lower-middle tile shows steel-sword practice. The page contains a showreel, four category tabs with a single expanded case card, and the original three-scene method comparison and animated inference pipeline. Immersive audio is expanded by default. Selecting another category closes the previous card and pauses its video. The only comparison baseline is LTX-2.3.
 
-- Combat interactions: training-pad kick, wooden-sword practice, and boxing.
+- Combat interactions: training-pad kick, steel-sword practice, and boxing.
 - Group activity: discussion circle, yurt, live-action choir, and the partly hidden diner raising a glass. The requested actions and constraints are listed beside each video.
 - Immersive audio: the updated hallway echo clip and speech behind a moving wiper, each with a seekable waveform derived from its audio.
 - Animated characters: the supplied puppet conversation and SpongeBob cast clips.
 
 The category hallway clip uses `精选素材/回声 new.mp4`. The hallway method comparison keeps the reference demo's original paired result. No echo or additional audio effects are added by the page. Original audio streams and clip durations are retained. Selected videos are H.264 MP4 at up to 1280 pixels wide; the existing 720p showreel is preserved.
 
-There are no external libraries, font requests, analytics, or build dependencies. Full videos load on demand. The six silent, low-resolution cover previews total about 0.53 MB and pause off-screen; reduced-motion preferences disable automatic motion. Foreground playback is coordinated so clips do not overlap with the comparison's selected audio source.
+There are no external libraries, font requests, analytics, or build dependencies. Full videos load on demand. The six silent, low-resolution cover previews total about 0.55 MB and pause off-screen; reduced-motion preferences disable automatic motion. Foreground playback is coordinated so clips do not overlap with the comparison's selected audio source.
 
 Content modules gently rise and fade in on their first scroll into view. `js/reveal.js` uses native IntersectionObserver and CSS transitions; reduced-motion preferences and keyboard focus show content immediately.
 
