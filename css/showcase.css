@@ -21,7 +21,7 @@ html{scroll-padding-top:95px}
 .hero .button:first-child{background:var(--blue);border-color:var(--blue);color:white}
 .hero .button:first-child:hover{background:#3d4fac;color:white}
 .hero .button:hover{color:#354b8d;background:white}
-.hero-authors{max-width:1060px;margin:25px auto 0;padding:18px 28px;border:2px solid #31476f;border-radius:12px;background:rgba(247,248,252,.38)}
+.hero-authors{max-width:1060px;margin:25px auto 0;padding:18px 28px}
 .hero-authors p{max-width:none}
 .hero-authors .author-list{max-width:800px;margin-inline:auto}
 .author-list{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;font-size:18px;font-weight:600;line-height:1.7;color:#12213b}
